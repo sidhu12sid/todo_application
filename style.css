@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(90deg, #174ba0, #020024);
+    width:100%;
+    min-height:100%;
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo{
+    background-color: #ffff;
+    width: 30rem;
+    
+}
