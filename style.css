@@ -1,15 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    height:100%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;    
     box-sizing: border-box;
 }
 
 .container{
     background: linear-gradient(90deg, #174ba0, #020024);
     width:100%;
-    min-height:100%;
+    height: 100vh;
     padding: .625rem;
     display: flex;
     flex-direction: row;
@@ -19,6 +18,45 @@
 
 .todo{
     background-color: #ffff;
-    width: 30rem;
-    
+    width: 100%;
+    max-width: 30rem;
+    border-radius: 18px;
+    padding:2rem;
+}
+
+.todo .head{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: flex-end;
+}
+
+.todo .head h2{
+    color:#50758d;
+    display: flex;
+    align-items: center;
+    padding-bottom: .5rem;
+}
+
+.todo .head h2 img{
+    margin-left: 1rem;
+    width:2rem;
+    height:2rem;
+}
+
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #c4c4c4;
+    border-radius: 20px;
+    padding-left:20px;
+    margin-top:12px;
+    height:2rem;
+}
+.row input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
 }
